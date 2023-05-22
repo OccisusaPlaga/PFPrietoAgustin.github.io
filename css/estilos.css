@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    font-size: 62,5%;
+}
+nav{
+    height: 100%;
+}
+
+.arañasonly{
+    color: rgb(43, 218, 43);
+}
+.background{
+background-image: url(../images/fondomain.jpg);
+background-size: cover;
+color: white;
+}
+.background1{
+background-image: url(../images/panal\ de\ abeja.jpg);
+background-size: cover;
+}
+
+.background2{
+    background-image: url(../images/avispafondo.jpg);
+    background-size: cover;
+}
+
+.background3{
+    background-image: url(../images/arañafondobueno.jpg);
+    background-size: cover;
+}
+
+.background4{
+    background-image: url(../images/escarabajofondo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+header{
+    
+    background-color: black;
+    height: 80px;
+}
+
+
+.titulo{
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+    align-content: center;
+}
+
+.titulo{
+    list-style-type: none;
+}
+
+.titulo li a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.intro{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.abejacaja1{  
+    display: flex;
+    margin-top: 20px;
+}
+.abeja1{ 
+    margin-left: 20px;
+    border: 2px solid black;
+    width: 470px;
+    height: 5%;
+}
+.textoabeja1{
+    width: 600px;
+    margin-left:300px;
+    font-size: 15px;  
+    border: 2px solid black;
+}
+
+.arañatxt1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.arañatxt2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.arañacaja1{  
+    display: flex;
+    padding-top: 20px;
+}
+.araña1{ 
+    border: 2px solid black;
+    width: 470px;
+    height: 300px;
+    margin-left: 420px;
+}
+.textoaraña1{
+    border: 2px solid black;
+    margin-left:220px;
+    font-size: 15px;
+    width: 500px;
+    overflow: auto;
+}
+
+.avispatxt1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.avispatxt2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.avispacaja1{  
+    display: flex;
+    margin-top: 20px;
+}
+.avispa1{ 
+    margin-left: 20px;
+    border: 2px solid black;
+    width: 470px;
+    height: 20%;
+}
+.textoavispa1{
+    margin-left:300px;
+    font-size: 15px;  
+    border: 2px solid black;
+    width: 600px;
+}
+
+.avispacaja{  
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 1480px;
+    height: 532;
+    overflow: visible;
+}
+
+.queganasdecomplicarme{
+padding-top: 40px;
+margin-right: 20px;
+}
+
+.nidoavispacaja{
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 1100px;
+    height: 544px;
+    margin-left: 300px;
+}
+
+.escaratxt1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.escaratxt2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.Escarabajocaja1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Escarabajo1{
+    border: 2px solid black;
+    width: 470px;
+    height: 300px;
+    margin-left: 420px;
+}
+
+.Escarabajotexto1{
+    border: 2px solid black;
+    margin-left:220px;
+    font-size: 15px;
+    width: 500px;
+    overflow: auto;
+}
+
+.abejacaja{
+    display: flex;
+    margin-top: 20px;
+}
+
+.textoabeja{
+    margin-left: 300px;
+    border: 2px solid black;
+    width: 600px;
+    height: 200xp;
+}
+
+.abeja{
+    margin-left: 20px;
+    border: 2px solid black;
+    width: 470px;
+    height: 5%;
+}
+
+.mielcaja{
+    display: flex;
+    padding-top: 20px;
+}
+
+.miel{
+    border: 2px solid black;
+    width: 470px;
+    height: 300px;
+    margin-left: 420px;
+}
+
+.textomiel{
+    border: 2px solid black;
+    margin-left:220px;
+    font-size: 15px;
+    width: 500px;
+    overflow: auto;
+}
+
+.panalcaja{
+    display: flex;
+    margin-top: 20px;
+}
+
+.panal{
+    margin-left: 20px;
+    border: 2px solid black;
+    width: 470px;
+    height: 20%;
+}
+
+.textopanal{
+    margin-left:300px;
+    font-size: 15px;  
+    border: 2px solid black;
+    width: 600px;
+}
+
+.arañacaja{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.arañahijo1{
+    color: rgb(76, 216, 88);
+    display: flex;
+    justify-content: space-around;
+    width:900px;
+    height:380px;
+    border: 2px dotted green;
+    margin-left: 20px;
+}
+
+.arañahijo2{
+color: rgb(43, 219, 43);
+display: flex;
+justify-content: space-around;
+width:900px;
+height:378px;
+border: 2px double green;
+margin-right: 20px;
+}
+
+.videosaraña{
+    color: yellow;
+    display: flex;
+    border: 2px solid yellow;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.escaracaja{
+    display: flex;
+    width: 1520px;
+    border: 2px white solid;
+    margin: 20px 30px 20px 20px;
+
+}
+
+.museobichos{
+    display: block;
+    margin: 20px 0px 0px 470px;
+}
+
+.escarapvp{
+    justify-content: space-around;
+    display: flex;
+}
+
+.logow{
+    margin-left:1450px;
+    width:80px;
+    height: 80px;
+}
+
+.logocontainer{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.sticky{
+
+    position: sticky;
+    bottom: 5%;
+}
+
+footer p{
+    margin-left: 130px;
+}
+
+footer ul li{
+list-style: none;
+}
+
+.redsocial{
+display: flex;  
+}
+
+.redsocial li{
+margin-left: 10px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.logocontainerm{
+    height: 50px;
+    width: 50px;
+    list-style:none;
+}

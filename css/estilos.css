@@ -4,24 +4,75 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-html{
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
     font-size: 62,5%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
-@media screen and (max-width: 600px) {
+.h2, h2 {
+    font-size: 16px;
+}
+
+.row{
+    justify-content: center;
+    width: 100%;
+}
+
+.col-7{
+
+    overflow: clip;
+    width: 20%;
+    font-size: 100%;
+}
+.col-5{
+
+    overflow: clip;
+    width: 40%;
+    font-size: 100%;
+}
+@media screen and (max-width: 600px){
     #div {
     font-size: 50px;
     }
+
+    .h2 h2{
+        font-size: 10px;
+    }
     .row{
-        border: 2px solid red;
+
+        width: 100%;
+        justify-content: center;
     } 
-    .col{
-        border: solid 2px green;
+    .col-sm-4{
+
+        width: 50%;
+        font-size: 70%;
+    }
+    .img-fluid{
+        justify-content: center;
+        
+    }
+    .logocontainerm1{
+        display: none;
     }
 }
 nav{
     height: 100%;
 }
+
+.img-fluid {
+    margin: auto;
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+}
+
 
 .arañasonly{
     color: rgb(43, 218, 43);
@@ -30,7 +81,6 @@ nav{
 background-image: url(../images/fondomain.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center;
 color: white;
 }
 .background1{
@@ -61,6 +111,8 @@ background-size: cover;
 
 .container-fluid{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-collapse{
@@ -123,7 +175,15 @@ h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-.intro{
+
+.titulobicho1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titulobicho2{
     margin-left: 20px;
     margin-top: 5px;
 }
@@ -133,28 +193,10 @@ h1{
     margin-top: 20px;
     width: 1500px;
 }
-.abeja1{ 
-    margin-left: 20px;
-    border: 2px solid black;
-    width: 400px;
-    height: 600px;
-}
-.textoabeja1{
-    width: 600px;
-    margin-left:300px;
-    font-size: 15px;  
-    border: 2px solid black;
-}
 
-.arañatxt1{
-    text-align: center;
-    font-size: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.arañatxt2{
-    margin-left: 20px;
-    margin-top: 5px;
+
+h1{
+font-family: 'Times New Roman', Times, serif;
 }
 
 .arañacaja1{  
@@ -167,12 +209,12 @@ h1{
     height: 300px;
     margin-left: 300px;
 }
-.textoaraña1{
+.textodescrip1{
+    width: auto;
+    font-size: 20px;  
     border: 2px solid black;
-    margin-left:220px;
-    font-size: 15px;
-    width: 500px;
-    overflow: scroll;
+    overflow: clip;
+    font-size: 100%;
 }
 
 .avispatxt1{
@@ -387,7 +429,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+
 }
 
 .sticky{
@@ -423,6 +465,11 @@ margin-left: 10px;
     list-style:none;
 }
 
+.logocontainerm1{
+    height: 50px;
+    width: 50px;
+    list-style:none;
+}
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);

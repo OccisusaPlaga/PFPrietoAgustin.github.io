@@ -300,63 +300,9 @@ margin-right: 20px;
     overflow: auto;
 }
 
-.abejacaja{
-    display: flex;
-    margin-top: 20px;
-}
 
-.textoabeja{
-    margin-left: 300px;
-    border: 2px solid black;
-    width: 600px;
-    height: 200xp;
-}
 
-.abeja{
-    margin-left: 20px;
-    border: 2px solid black;
-    width: 470px;
-    height: 5%;
-}
 
-.mielcaja{
-    display: flex;
-    padding-top: 20px;
-}
-
-.miel{
-    border: 2px solid black;
-    width: 470px;
-    height: 300px;
-    margin-left: 420px;
-}
-
-.textomiel{
-    border: 2px solid black;
-    margin-left:220px;
-    font-size: 15px;
-    width: 500px;
-    overflow: auto;
-}
-
-.panalcaja{
-    display: flex;
-    margin-top: 20px;
-}
-
-.panal{
-    margin-left: 20px;
-    border: 2px solid black;
-    width: 470px;
-    height: 20%;
-}
-
-.textopanal{
-    margin-left:300px;
-    font-size: 15px;  
-    border: 2px solid black;
-    width: 600px;
-}
 
 .arañacaja{
     display: flex;
@@ -479,4 +425,9 @@ margin-left: 10px;
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
+}
+
+.pisopag{
+    margin-bottom: 20px;
+    padding: 20px;
 }

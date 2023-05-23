@@ -12,9 +12,12 @@ html{
     #div {
     font-size: 50px;
     }
-    .col{
-        size: 50%;
+    .row{
+        border: 2px solid red;
     } 
+    .col{
+        border: solid 2px green;
+    }
 }
 nav{
     height: 100%;
@@ -128,12 +131,13 @@ h1{
 .abejacaja1{  
     display: flex;
     margin-top: 20px;
+    width: 1500px;
 }
 .abeja1{ 
     margin-left: 20px;
     border: 2px solid black;
-    width: 470px;
-    height: 5%;
+    width: 400px;
+    height: 600px;
 }
 .textoabeja1{
     width: 600px;

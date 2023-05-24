@@ -28,14 +28,45 @@ html, body{
     overflow: clip;
     width: 20%;
     font-size: 100%;
+    border: 2px double yellow;
+
 }
 .col-5{
 
     overflow: clip;
     width: 40%;
     font-size: 100%;
+    border: 2px dotted yellow;
 }
+
+.col-6{
+
+    overflow: clip;
+    width: 30%;
+    font-size: 100%;
+    border: 2px  dotted yellow;
+    margin: 2px;
+}
+
+.col-2{
+    overflow: clip;
+    width: 40%;
+    font-size: 100%;
+    border: 2px dotted yellow;
+}
+
+.col-3{
+    overflow: clip;
+    width: 20%;
+    font-size: 100%;
+    border: 2px double yellow;
+}
+
+
+
+
 @media screen and (max-width: 600px){
+
     #div {
     font-size: 50px;
     }
@@ -53,6 +84,30 @@ html, body{
         width: 50%;
         font-size: 70%;
     }
+    .col-sm-3{
+
+        width: 33%;
+        font-size: 70%;
+    }
+    .col-6{
+        width:30%;
+    }
+
+    .col-2 iframe{
+        width: 40%;
+    }
+    .col-2 iframe{
+        width: 100%;
+    }
+
+    .col-3{
+        width: 20%; 
+    }
+
+    .col-7{
+        width:20%;
+    }
+
     .img-fluid{
         justify-content: center;
         
@@ -76,7 +131,14 @@ nav{
 
 .arañasonly{
     color: rgb(43, 218, 43);
+    font-size: 30px;
 }
+
+.arañasonlydescrip{
+    color: rgb(43, 218, 43);
+    font-size: 20px;
+}
+
 .background{
 background-image: url(../images/fondomain.jpg);
 background-size: cover;
@@ -202,13 +264,9 @@ font-family: 'Times New Roman', Times, serif;
 .arañacaja1{  
     display: flex;
     padding-top: 20px;
+    width: 100%;
 }
-.araña1{ 
-    border: 2px solid black;
-    width: 470px;
-    height: 300px;
-    margin-left: 300px;
-}
+
 .textodescrip1{
     width: auto;
     font-size: 20px;  
@@ -300,45 +358,28 @@ margin-right: 20px;
     overflow: auto;
 }
 
-
-
-
-
-.arañacaja{
+.cajaara1{
+    border: 2px double yellow;
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    max-width: 100%;
 }
 
-.arañahijo1{
-    color: rgb(76, 216, 88);
+.cajaara2{
+    border: 2px dotted yellow;
     display: flex;
-    justify-content: space-around;
-    width:900px;
-    height:380px;
-    border: 2px dotted green;
-    margin-left: 20px;
+    max-width: 100%;
 }
-
-.arañahijo2{
-color: rgb(43, 219, 43);
-display: flex;
-justify-content: space-around;
-width:900px;
-height:378px;
-border: 2px double green;
-margin-right: 20px;
-}
-
-.videosaraña{
-    color: yellow;
-    display: flex;
+.arañasborder{
     border: 2px solid yellow;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
 }
+
+
+
+
 
 .escaracaja{
     display: flex;

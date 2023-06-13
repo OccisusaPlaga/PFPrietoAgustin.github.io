@@ -1,0 +1,64 @@
+$logomedida: 50px;
+$logom2: 40px;
+
+.logow {
+    margin-left: 1450px;
+    width: $logom2*2;
+    height: $logom2*2;
+  }
+  
+  .logocontainer {
+    width: $logom2;
+    height: $logom2;
+  }
+  
+  footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .sticky {
+    position: sticky;
+    bottom: 5%;
+  }
+  
+  footer p {
+    margin-left: 130px;
+  }
+  
+  footer ul li {
+    list-style: none;
+  }
+  
+  .redsocial {
+    display: flex;
+  }
+  
+  .redsocial li {
+    margin-left: 10px;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logocontainerm {
+    height: $logomedida;
+    width: $logomedida;
+    list-style: none;
+  }
+  
+  .logocontainerm1 {
+    height: $logomedida;
+    width: $logomedida;
+    list-style: none;
+  }
+  

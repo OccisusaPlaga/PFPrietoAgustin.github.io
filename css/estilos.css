@@ -1,639 +1,608 @@
-*{
-    margin: 0;
-    padding:0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+@charset "UTF-8";
+.logow {
+  margin-left: 1450px;
+  width: 80px;
+  height: 80px;
 }
 
-main{
-    width: 100%;
-    max-width: 100%;
-    display: flex;
+.logocontainer {
+  width: 40px;
+  height: 40px;
 }
 
-html, body{
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-    font-size: 62,5%;
-    overflow: auto;
-    overflow-y: auto;
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  bottom: 5%;
+}
+
+footer p {
+  margin-left: 130px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.redsocial {
+  display: flex;
+}
+
+.redsocial li {
+  margin-left: 10px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.logocontainerm {
+  height: 50px;
+  width: 50px;
+  list-style: none;
+}
+
+.logocontainerm1 {
+  height: 50px;
+  width: 50px;
+  list-style: none;
+}
+
+.escaracaja {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  width: 1520px;
+  border: 2px white solid;
+  margin: 20px 30px 20px 20px;
+}
+
+.escaratxt1 {
+  text-align: center;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.escaratxt2 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.col-1esca {
+  max-width: 20%;
+  border: 2px white solid;
+}
+
+.col-6esc {
+  overflow: clip;
+  width: 30%;
+  font-size: 100%;
+  margin: 2px;
+}
+
+.col-8avs {
+  overflow: clip;
+  width: 600px;
+  max-width: 100%;
+  height: 500px;
+  font-size: 100%;
+}
+
+.col-3avispa {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.avispacaja1 {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.col-2avispa {
+  justify-content: center;
+  overflow: clip;
+  width: 40%;
+  font-size: 100%;
+}
+
+.col-2avispa iframe {
+  overflow: clip;
+  width: 400px;
+  max-width: 100%;
+  height: 500px;
+  font-size: 100%;
+}
+
+.col-2avispa img {
+  overflow: clip;
+  width: 400px;
+  max-width: 100%;
+  height: 300px;
+  font-size: 100%;
+  margin-top: 80px;
+}
+
+.avispacaja1 {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.col-3avispa {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.avispa1 {
+  margin-left: 20px;
+  border: 2px solid black;
+  width: 470px;
+  height: 20%;
+}
+
+.textoavispa1 {
+  margin-left: 300px;
+  font-size: 15px;
+  border: 2px solid black;
+  width: 600px;
+}
+
+.col-sm-5avs {
+  max-width: 100%;
+}
+
+.col-8 {
+  margin-top: 130px;
+  max-width: 50%;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+
+.col-7ara {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  border: 2px double rgb(18, 194, 18);
+}
+
+.col-6ara {
+  overflow: clip;
+  width: 30%;
+  font-size: 100%;
+  border: 2px dotted rgb(18, 194, 18);
+  margin: 2px;
+}
+
+.col-2ara {
+  justify-content: center;
+  overflow: clip;
+  width: 40%;
+  font-size: 100%;
+  border: 2px dotted rgb(18, 194, 18);
+}
+
+.col-3ara {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  border: 2px double rgb(18, 194, 18);
+}
+
+.arañasonly {
+  color: rgb(18, 194, 18);
+  font-size: 30px;
+}
+
+.arañasonlydescrip {
+  color: rgb(18, 194, 18);
+  font-size: 20px;
+}
+
+.arañacaja1 {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.cajaara1 {
+  border: 2px double rgb(18, 194, 18);
+  display: flex;
+  max-width: 100%;
+}
+
+.cajaara2 {
+  border: 2px dotted rgb(18, 194, 18);
+  display: flex;
+  max-width: 100%;
+}
+
+.arañasborder {
+  border: 2px solid rgb(18, 194, 18);
+  margin: auto;
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.abejacaja1 {
+  display: flex;
+  margin-top: 20px;
+  width: 1500px;
+}
+
+.col-5 {
+  overflow: clip;
+  width: 40%;
+  font-size: 100%;
+  border: 2px dotted yellow;
+}
+
+.col-7 {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  border: 2px double yellow;
+}
+
+.col-7 {
+  overflow: clip;
+  width: 20%;
+  font-size: 100%;
+  border: 2px double yellow;
+}
+
+.col-5 {
+  overflow: clip;
+  width: 40%;
+  font-size: 100%;
+  border: 2px dotted yellow;
+}
+
+.col-6 {
+  overflow: clip;
+  width: 30%;
+  font-size: 100%;
+  border: 2px dotted yellow;
+  margin: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-size: 62, 5%;
+  overflow: auto;
+  overflow-y: auto;
 }
 
 .h2, h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.row{
-    justify-content: center;
-    display: flex;
+.row {
+  justify-content: center;
+  display: flex;
 }
 
-.col-7{
-
-    overflow: clip;
-    width: 20%;
-    font-size: 100%;
-    border: 2px double yellow;
-
+.col-2 {
+  justify-content: center;
+  overflow: clip;
+  width: 40%;
+  font-size: 100%;
+  border: 2px dotted yellow;
 }
 
-.col-7ara{
-
-    overflow: clip;
-    width: 20%;
-    font-size: 100%;
-    border: 2px double rgb(18, 194, 18);
-
+.col-2 iframe {
+  overflow: clip;
+  width: 400px;
+  max-width: 100%;
+  height: 500px;
+  font-size: 100%;
 }
 
-.col-5{
-
-    overflow: clip;
-    width: 40%;
-    font-size: 100%;
-    border: 2px dotted yellow;
+.col-2 img {
+  overflow: clip;
+  width: 400px;
+  max-width: 100%;
+  height: 300px;
+  font-size: 100%;
+  margin-top: 80px;
 }
 
-.col-6{
-
-    overflow: clip;
-    width: 30%;
-    font-size: 100%;
-    border: 2px  dotted yellow;
-    margin: 2px;
-}
-
-.col-6esc{
-
-    overflow: clip;
-    width: 30%;
-    font-size: 100%;
-    margin: 2px;
-}
-
-.col-6ara{
-
-    overflow: clip;
-    width: 30%;
-    font-size: 100%;
-    border: 2px  dotted rgb(18, 194, 18);
-    margin: 2px;
-}
-
-.col-2{
-    justify-content: center;
-    overflow: clip;
-    width: 40%;
-    font-size: 100%;
-    border: 2px dotted yellow;
-}
-
-.col-2ara{
-    justify-content: center;
-    overflow: clip;
-    width: 40%;
-    font-size: 100%;
-    border: 2px dotted rgb(18, 194, 18);
-}
-
-.col-2 iframe{
-    overflow: clip;
-    width: 400px;
-    max-width:100%;
-    height: 500px;
-    font-size: 100%;
-    
-}
-.col-8{
-    margin-top: 130px;
-    max-width: 50%;
-    width: 100%;
-    color: white;
-    justify-content: center;
-}
-
-.col-8avs{
-    overflow: clip;
-    width: 600px;
-    max-width:100%;
-    height: 500px;
-    font-size: 100%;
-}
-.col-2 img{
-    overflow: clip;
-    width: 400px;
-    max-width:100%;
-    height: 300px;
-    font-size: 100%;
-    margin-top: 80px;
-}
-
-
-.col-3{
-    overflow: clip;
-    width: 20%;
-    font-size: 100%;
-    border: 2px double yellow;
-}
-
-
-.col-3ara{
-    overflow: clip;
-    width: 20%;
-    font-size: 100%;
-    border: 2px double rgb(18, 194, 18);
-}
-
-.col-2avispa{
-    justify-content: center;
-    overflow: clip;
-    width: 40%;
-    font-size: 100%;
-
-}
-
-.col-2avispa iframe{
-    overflow: clip;
-    width: 400px;
-    max-width:100%;
-    height: 500px;
-    font-size: 100%;
-    
-}
-
-.col-2avispa img{
-    overflow: clip;
-    width: 400px;
-    max-width:100%;
-    height: 300px;
-    font-size: 100%;
-    margin-top: 80px;
-}
-
-.avispacaja1{
-    border: 2px solid black;
-    margin-bottom: 20px;
-}
-
-.col-3avispa{
-    overflow: clip;
-    width: 20%;
-    font-size: 100%;
-    text-align: center;
-    margin-top: 150px;
-}
-
-.col-1esca{
-    max-width: 20%;
-    border: 2px white solid;
-}
-
-.col-sm-5avs{
+@media screen and (max-width: 600px) {
+  .col-2ara {
     max-width: 100%;
-
-}
-
-
-@media screen and (max-width: 600px){
-
-    .col-1esca{
-        max-width: 100%;
-    }
-
-    .col-sm-4esc{
-        max-width: 100%;
-        width: 100%;
-    }
-    
-
-    .col-8{
-        width: 100%;
-        font-size: 70%;
-        max-width: 100%;
-    }
-
-    .col-8avs{
-        max-width: 100%;
-        size: 30%;
-    }
-
-    .col-sm-5avs{
-        max-width: 200%;
-        width: 600px;
-    }
-
-    .col-sm-4avs{
-        max-width: 100%;
-    }
-
-    .col-8 iframe{
-        max-width: 100%;
-    }
-    #div {
+    width: 90%;
+  }
+  .col-2ara iframe {
+    max-width: 100%;
+    width: 99%;
+  }
+  .col-1esca {
+    max-width: 100%;
+    width: 70%;
+  }
+  .col-sm-4esc {
+    max-width: 100%;
+    width: 90%;
+  }
+  .col-8 {
+    width: 100%;
+    font-size: 70%;
+    max-width: 100%;
+  }
+  .col-8avs {
+    max-width: 100%;
+    size: 30%;
+  }
+  .col-8avs iframe {
+    max-width: 100%;
+    width: 70%;
+  }
+  .col-sm-5avs {
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-sm-4avs {
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-8 iframe {
+    max-width: 100%;
+  }
+  #div {
     font-size: 50px;
-    }
-
-    .h2 h2{
-        font-size: 10px;
-    }
-    .row{
-
-
-        justify-content: center;
-    } 
-    .col-sm-4{
-
-        width: 50%;
-        font-size: 70%;
-    }
-    .col-sm-3{
-
-        width: 100%;
-        font-size: 70%;
-    }
-    .col-6{
-        width:100%;
-    }
-
-    .col-6ara{
-        width:50%;
-    }
-
-    .col-6esca{
-        width:100%;
-    }
-
-    .col-2{
-        width: 100%;
-    }
-
-    .col-2avispa{
-        width: 100%;
-    }
-    .col-2 iframe{
-        width: 100%;
-    }
-
-    .col-3{
-        width:100%; 
-    }
-
-    .col-3avispa{
-        width: 100%;
-        text-size-adjust: 100%;
-    }
-
-    .col-7{
-        width:100%;
-    }
-
-    .col-7ara{
-        width:50%;
-    }
-
-    .col-5{
-        width:100%;
-    }
-
-
-    .img-fluid{
-        justify-content: center;
-        
-    }
-    .logocontainerm1{
-        display: none;
-    }
-
-    .cajaara1{
-        display: block;
-        max-width: 50%;
-    }
+  }
+  .h2 h2 {
+    font-size: 10px;
+  }
+  .row {
+    justify-content: center;
+  }
+  .col-sm-4 {
+    width: 50%;
+    font-size: 70%;
+  }
+  .col-sm-3 {
+    max-width: 100%;
+    font-size: 70%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-6ara {
+    width: 50%;
+    max-width: 100%;
+  }
+  .col-6esc {
+    width: 90%;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .col-2avispa {
+    width: 100%;
+  }
+  .col-2 iframe {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-3ara {
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-3avispa {
+    width: 100%;
+    text-size-adjust: 100%;
+  }
+  .col-7 {
+    width: 90%;
+  }
+  .col-7ara {
+    width: 50%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .img-fluid {
+    justify-content: center;
+  }
+  .logocontainerm1 {
+    display: none;
+  }
+  .cajaara1 {
+    display: flex;
+    max-width: 100%;
+  }
 }
-nav{
-    height: 100%;
-    position: fixed;
+nav {
+  height: 100%;
+  position: fixed;
 }
 
 .img-fluid {
-    margin: auto;
-    max-width: 100%;
-    height: 200px;
-    width: 200px;
-    border: 2px black solid;
+  margin: auto;
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+  border: 2px black solid;
 }
 
-
-.arañasonly{
-    color: rgb(43, 218, 43);
-    font-size: 30px;
+.background {
+  background-image: url(../images/fondomain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-.arañasonlydescrip{
-    color: rgb(43, 218, 43);
-    font-size: 20px;
+.background1 {
+  background-image: url(../images/panal\ de\ abeja.jpg);
+  background-size: cover;
 }
 
-.background{
-background-image: url(../images/fondomain.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-color: white;
-}
-.background1{
-background-image: url(../images/panal\ de\ abeja.jpg);
-background-size: cover;
+.background2 {
+  background-image: url(../images/avispafondo.jpg);
+  background-size: cover;
 }
 
-.background2{
-    background-image: url(../images/avispafondo.jpg);
-    background-size: cover;
+.background3 {
+  background-image: url(../images/arañafondobueno.jpg);
+  background-size: cover;
 }
 
-.background3{
-    background-image: url(../images/arañafondobueno.jpg);
-    background-size: cover;
-}
-
-.background4{
-    background-image: url(../images/escarabajofondo.jpg);
-    background-size: cover;
-    color: white;
+.background4 {
+  background-image: url(../images/escarabajofondo.jpg);
+  background-size: cover;
+  color: white;
 }
 
 .bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color:black !important;
+  --bs-bg-opacity: 1;
+  background-color: black !important;
 }
 
-.container-fluid{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
-.navbar-collapse{
-    background-color: black;
-    
+.navbar-collapse {
+  background-color: black;
 }
 
-.navbar-nav{
-    background-color: black;
-    color: white;
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: var(--bs-gray-400);
-    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
-}
-.navbar-nav{
-    background-color: black;
-    color: white;
-    --bs-nav-link-color: white;
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    --bs-nav-link-hover-color: var(--bs-gray-600);
-    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
-    
+.navbar-nav {
+  background-color: black;
+  color: white;
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: var(--bs-gray-400);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
 }
 
-.navbar-brand{
-    padding-top: var(--bs-navbar-brand-padding-y);
-    padding-bottom: var(--bs-navbar-brand-padding-y);
-    margin-right: var(--bs-navbar-brand-margin-end);
-    font-size: var(--bs-navbar-brand-font-size);
-    color: white;
-    background-color: grey;
-    text-decoration: none;
-    white-space: nowrap;
-    
-}
-.titulo{
-    font-size: 30px;
-    padding: 20px;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    height: 100%;
-    align-content: center;
-    list-style-type: none;
+.navbar-nav {
+  background-color: black;
+  color: white;
+  --bs-nav-link-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  --bs-nav-link-hover-color: var(--bs-gray-600);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
 }
 
-
-.titulo li a{
-    text-decoration: none;
-    color: white;
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: white;
+  background-color: grey;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-h1{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+.titulo {
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100%;
+  align-content: center;
+  list-style-type: none;
 }
 
-.titulobicho1{
-    text-align: center;
-    font-size: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
+.titulo li a {
+  text-decoration: none;
+  color: white;
 }
 
-.titulobicho2{
-    margin-left: 20px;
-    margin-top: 5px;
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.abejacaja1{  
-    display: flex;
-    margin-top: 20px;
-    width: 1500px;
+.titulobicho1 {
+  text-align: center;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-
-h1{
-font-family: 'Times New Roman', Times, serif;
+.titulobicho2 {
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
-.arañacaja1{  
-    display: flex;
-    padding-top: 20px;
-    width: 100%;
+.textodescrip1 {
+  width: auto;
+  font-size: 20px;
+  border: 2px solid black;
+  overflow: clip;
+  font-size: 100%;
 }
 
-.textodescrip1{
-    width: auto;
-    font-size: 20px;  
-    border: 2px solid black;
-    overflow: clip;
-    font-size: 100%;
+.queganasdecomplicarme {
+  padding-top: 40px;
+  margin-right: 20px;
 }
 
-
-.avispa1{ 
-    margin-left: 20px;
-    border: 2px solid black;
-    width: 470px;
-    height: 20%;
-}
-.textoavispa1{
-    margin-left:300px;
-    font-size: 15px;  
-    border: 2px solid black;
-    width: 600px;
+.museobichos {
+  display: block;
+  margin: 20px 0px 0px 470px;
 }
 
-
-
-.queganasdecomplicarme{
-padding-top: 40px;
-margin-right: 20px;
-}
-
-
-
-.escaratxt1{
-    text-align: center;
-    font-size: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.escaratxt2{
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
-.Escarabajocaja1{
-    display: flex;
-    margin-top: 20px;
-}
-
-.Escarabajo1{
-    border: 2px solid black;
-    width: 470px;
-    height: 300px;
-    margin-left: 320px;
-}
-
-.Escarabajotexto1{
-    border: 2px solid black;
-    margin-left:220px;
-    font-size: 15px;
-    width: 500px;
-    overflow: auto;
-}
-
-.cajaara1{
-    border: 2px double rgb(43, 218, 43);
-    display: flex;
-    max-width: 100%;
-}
-
-.cajaara2{
-    border: 2px dotted rgb(43, 218, 43);
-    display: flex;
-    max-width: 100%;
-}
-.arañasborder{
-    border: 2px solid rgb(43, 218, 43);
-    margin: auto;
-    max-width: 100%;
-    height: 200px;
-    width: 200px;
-}
-
-.escaracaja{
-    display: flex;
-    width: 1520px;
-    border: 2px white solid;
-    margin: 20px 30px 20px 20px;
-
-}
-
-.museobichos{
-    display: block;
-    margin: 20px 0px 0px 470px;
-}
-
-.escarapvp{
-    justify-content: space-around;
-    display: flex;
-}
-
-.logow{
-    margin-left:1450px;
-    width:80px;
-    height: 80px;
-}
-
-.logocontainer{
-    width: 40px;
-    height: 40px;
-}
-
-footer{
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    max-width: 100%;
-
-}
-
-.sticky{
-
-    position: sticky;
-    bottom: 5%;
-}
-
-footer p{
-    margin-left: 130px;
-}
-
-footer ul li{
-list-style: none;
-}
-
-.redsocial{
-display: flex;  
-}
-
-.redsocial li{
-margin-left: 10px;
-}
-
-.logo{
-    width: 100%;
-    height: 100%;
-}
-
-.logocontainerm{
-    height: 50px;
-    width: 50px;
-    list-style:none;
-}
-
-.logocontainerm1{
-    height: 50px;
-    width: 50px;
-    list-style:none;
-}
 .navbar-toggler {
-    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-    font-size: var(--bs-navbar-toggler-font-size);
-    line-height: 1;
-    color: var(--bs-navbar-color);
-    background-color: white;
-    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-    border-radius: var(--bs-navbar-toggler-border-radius);
-    transition: var(--bs-navbar-toggler-transition);
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: white;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
 }
 
-.pisopag{
-    margin-bottom: 20px;
-    padding: 20px;
+.pisopag {
+  margin-bottom: 20px;
+  padding: 20px;
 }
+
+/*# sourceMappingURL=estilos.css.map */

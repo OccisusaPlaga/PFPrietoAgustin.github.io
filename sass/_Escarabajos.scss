@@ -1,0 +1,37 @@
+$tipica: 2px solid black;
+$margenes: 20px;
+
+.escaracaja {
+    border: $tipica;
+    margin-bottom: $margenes;
+    display: flex;
+    width: 1520px;
+    border: 2px white solid;
+    margin: 20px 30px 20px 20px;
+
+
+}
+
+.escaratxt1 {
+    text-align: center;
+    font-size: 40px;
+    margin-left: $margenes;
+    margin-top: $margenes;
+}
+
+.escaratxt2 {
+    margin-left: $margenes;
+    margin-top: 5px;
+}
+
+.col-1esca {
+    max-width: 20%;
+    border: 2px white solid;
+}
+
+.col-6esc {
+    overflow: clip;
+    width: 30%;
+    font-size: 100%;
+    margin: 2px;
+}

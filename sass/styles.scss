@@ -1,0 +1,365 @@
+$size_h2: 16px;
+$fullwidth: 100%;
+$black:black;
+$white:white;
+$arañacolor:rgb(18, 194, 18);
+
+@use "_footer";
+@use "_Escarabajos";
+@use "_Avispas";
+@use "_Arañas";
+@use "_Abejas";
+@use "_index";
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    width: 100%;
+    max-width: $fullwidth;
+    display: flex;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 62,5%;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+.h2, h2 {
+    font-size: 16px;
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+}
+
+.col-2{
+    justify-content: center;
+    overflow: clip;
+    width: 40%;
+    font-size: 100%;
+    border: 2px dotted yellow;
+}
+
+.col-2 iframe{
+    overflow: clip;
+    width: 400px;
+    max-width:100%;
+    height: 500px;
+    font-size: 100%;
+    
+}
+
+.col-2 img{
+    overflow: clip;
+    width: 400px;
+    max-width:100%;
+    height: 300px;
+    font-size: 100%;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 600px){
+
+    .col-2ara{
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .col-2ara iframe{
+        max-width: 100%;
+        width: 99%;
+    }
+
+    .col-1esca{
+        max-width: 100%;
+        width: 70%;
+    }
+
+
+    .col-sm-4esc{
+        max-width: 100%;
+        width: 90%;
+    }
+    
+
+    .col-8{
+        width: 100%;
+        font-size: 70%;
+        max-width: 100%;
+    }
+
+    .col-8avs{
+        max-width: 100%;
+        size: 30%;
+    }
+
+    .col-8avs iframe{
+        max-width: 100%;
+        width: 70%;
+    }
+
+
+    .col-sm-5avs{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .col-sm-4avs{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .col-8 iframe{
+        max-width: 100%;
+    }
+    #div {
+    font-size: 50px;
+    }
+
+    .h2 h2{
+        font-size: 10px;
+    }
+    .row{
+        justify-content: center;
+    } 
+    .col-sm-4{
+
+        width: 50%;
+        font-size: 70%;
+    }
+    .col-sm-3{
+
+        max-width: 100%;
+        font-size: 70%;
+    }
+    .col-6{
+        width:100%;
+    }
+
+    .col-6ara{
+        width:50%;
+        max-width: 100%;
+    }
+
+    .col-6esc{
+        width:90%;
+    }
+
+
+    .col-2{
+        width: 100%;
+    }
+
+    .col-2avispa{
+        width: 100%;
+    }
+    .col-2 iframe{
+        width: 100%;
+    }
+
+    .col-3{
+        width:100%; 
+    }
+
+    .col-3ara{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .col-3avispa{
+        width: 100%;
+        text-size-adjust: 100%;
+    }
+
+    .col-7{
+        width:90%;
+    }
+
+    .col-7ara{
+        width:50%;
+    }
+
+    .col-5{
+        width:100%;
+    }
+
+    .img-fluid{
+        justify-content: center;
+        
+    }
+    .logocontainerm1{
+        display: none;
+    }
+
+    .cajaara1{
+        display: flex;
+        max-width: 100%;
+    }
+}
+nav{
+    height: 100%;
+    position: fixed;
+}
+
+.img-fluid {
+    margin: auto;
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+}
+
+.background{
+background-image: url(../images/fondomain.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+}
+.background1{
+background-image: url(../images/panal\ de\ abeja.jpg);
+background-size: cover;
+}
+
+.background2{
+    background-image: url(../images/avispafondo.jpg);
+    background-size: cover;
+}
+
+.background3{
+    background-image: url(../images/arañafondobueno.jpg);
+    background-size: cover;
+}
+
+.background4{
+    background-image: url(../images/escarabajofondo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color:black !important;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.navbar-collapse{
+    background-color: black;
+    
+}
+
+.navbar-nav{
+    background-color: black;
+    color: white;
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: var(--bs-gray-400);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+}
+
+.navbar-nav{
+    background-color: black;
+    color: white;
+    --bs-nav-link-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    --bs-nav-link-hover-color: var(--bs-gray-600);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    
+}
+
+.navbar-brand{
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+    white-space: nowrap;
+    
+}
+.titulo{
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+    align-content: center;
+    list-style-type: none;
+}
+
+.titulo li a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulobicho1{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titulobicho2{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.textodescrip1{
+    width: auto;
+    font-size: 20px;  
+    border: 2px solid black;
+    overflow: clip;
+    font-size: 100%;
+}
+
+.queganasdecomplicarme{
+padding-top: 40px;
+margin-right: 20px;
+}
+
+.museobichos{
+    display: block;
+    margin: 20px 0px 0px 470px;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.pisopag{
+    margin-bottom: 20px;
+    padding: 20px;
+}

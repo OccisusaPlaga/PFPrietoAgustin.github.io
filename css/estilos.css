@@ -402,7 +402,7 @@ html, body {
     width: 100%;
   }
   .col-6ara {
-    width: 50%;
+    width: 100%;
     max-width: 100%;
   }
   .col-6esc {
@@ -432,7 +432,7 @@ html, body {
     width: 90%;
   }
   .col-7ara {
-    width: 50%;
+    width: 100%;
   }
   .col-5 {
     width: 100%;
@@ -444,8 +444,9 @@ html, body {
     display: none;
   }
   .cajaara1 {
-    display: flex;
+    display: block;
     max-width: 100%;
+    margin-bottom: 10px;
   }
 }
 nav {

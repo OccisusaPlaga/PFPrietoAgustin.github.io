@@ -4,13 +4,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+main{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
 html, body{
     padding: 0;
     margin: 0;
     min-height: 100vh;
     font-size: 62,5%;
-    height: 100%;
-    overflow: hidden;
+    overflow: auto;
     overflow-y: auto;
 }
 
@@ -20,7 +25,7 @@ html, body{
 
 .row{
     justify-content: center;
-    width: 100%;
+    display: flex;
 }
 
 .col-7{
@@ -170,7 +175,6 @@ html, body{
     margin-bottom: 20px;
 }
 
-
 .col-3avispa{
     overflow: clip;
     width: 20%;
@@ -234,7 +238,7 @@ html, body{
     }
     .row{
 
-        width: 100%;
+
         justify-content: center;
     } 
     .col-sm-4{
@@ -249,6 +253,10 @@ html, body{
     }
     .col-6{
         width:100%;
+    }
+
+    .col-6ara{
+        width:50%;
     }
 
     .col-6esca{
@@ -279,6 +287,10 @@ html, body{
         width:100%;
     }
 
+    .col-7ara{
+        width:50%;
+    }
+
     .col-5{
         width:100%;
     }
@@ -291,9 +303,15 @@ html, body{
     .logocontainerm1{
         display: none;
     }
+
+    .cajaara1{
+        display: block;
+        max-width: 50%;
+    }
 }
 nav{
     height: 100%;
+    position: fixed;
 }
 
 .img-fluid {
@@ -350,6 +368,8 @@ background-size: cover;
 .container-fluid{
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 100%;
 }
 
 .navbar-collapse{
@@ -387,6 +407,7 @@ background-size: cover;
     background-color: grey;
     text-decoration: none;
     white-space: nowrap;
+    
 }
 .titulo{
     font-size: 30px;
@@ -521,10 +542,6 @@ margin-right: 20px;
     width: 200px;
 }
 
-
-
-
-
 .escaracaja{
     display: flex;
     width: 1520px;
@@ -560,6 +577,10 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    max-width: 100%;
 
 }
 

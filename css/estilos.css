@@ -95,10 +95,19 @@ footer ul li {
 
 .col-8avs {
   overflow: clip;
-  width: 600px;
+  width: 400px;
   max-width: 100%;
   height: 500px;
   font-size: 100%;
+}
+
+.col-8avstxt{
+  overflow: clip;
+  width: 400px;
+  max-width: 100%;
+  height: 500px;
+  font-size: 100%;
+  margin-top: 90px;
 }
 
 .col-3avispa {

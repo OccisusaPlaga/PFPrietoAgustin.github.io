@@ -15,7 +15,6 @@
 }
 
 .avispacaja1 {
-    border: 2px solid black;
     margin-bottom: 20px;
 }
 
@@ -67,6 +66,14 @@
     font-size: 15px;  
     border: 2px solid black;
     width: 600px;
+}
+
+.textodescrip1avips {
+    width: auto;
+    font-size: 40px;
+    border: 2px solid black;
+    overflow: clip;
+    font-size: 100%;
 }
 
 .col-sm-5avs{

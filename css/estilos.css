@@ -119,7 +119,6 @@ footer ul li {
 }
 
 .avispacaja1 {
-  border: 2px solid black;
   margin-bottom: 20px;
 }
 
@@ -638,6 +637,14 @@ h1 {
 .textodescrip1 {
   width: auto;
   font-size: 20px;
+  border: 2px solid black;
+  overflow: clip;
+  font-size: 100%;
+}
+
+.textodescrip1avips {
+  width: auto;
+  font-size: 40px;
   border: 2px solid black;
   overflow: clip;
   font-size: 100%;

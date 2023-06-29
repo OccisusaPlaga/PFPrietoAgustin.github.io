@@ -22,10 +22,6 @@ footer {
   max-width: 100%;
 }
 
-.sticky {
-  position: sticky;
-  bottom: 5%;
-}
 
 footer p {
   margin-left: 130px;
@@ -490,6 +486,16 @@ html, body {
     font-size: 20px;
     padding-top: 0px;
   }
+
+  footer p{
+    width: 5%;
+  }
+
+  ul .redsocial{
+    width: 50%;
+    margin-right: 20px;
+  }
+
 }
 nav {
   height: 100%;

@@ -84,6 +84,7 @@ footer ul li {
 .col-1esca {
   max-width: 20%;
   border: 2px white solid;
+  background-color: rgba(0, 0, 0, 0.507);
 }
 
 .col-6esc {
@@ -267,9 +268,10 @@ footer ul li {
 
 .col-7abeja {
   overflow: clip;
-  width: 20%;
+  width: 25%;
   font-size: 100%;
   border: 2px double yellow;
+  text-align: center;
 }
 
 .col-5abeja {
@@ -277,19 +279,20 @@ footer ul li {
   width: 40%;
   font-size: 100%;
   border: 2px dotted yellow;
+  text-align: center;
 
 }
 
 .col-7 {
   overflow: clip;
-  width: 20%;
+  width: 30%;
   font-size: 100%;
   border: 2px double yellow;
 }
 
 .col-5 {
   overflow: clip;
-  width: 40%;
+  width: 35%;
   font-size: 100%;
   border: 2px dotted yellow;
 }
@@ -491,11 +494,47 @@ nav {
 }
 
 .img-fluid {
-  margin: auto;
+  margin: 40px;
   max-width: 100%;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border: 2px black solid;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-fluid-esca {
+  margin: 15px;
+  max-width: 100%;
+  height: 250px;
+  width: 250px;
+  border: 2px black solid;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.img-fluid-abeja {
+  margin: 40px;
+  max-width: 100%;
+  height: 250px;
+  width: 250px;
+  border: 2px black solid;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.img-fluid:hover{
+transform: scale(1.1) translateY(-20px);
+}
+
+.img-fluid-esca:hover{
+  transform: scale(1.1) translateY(-20px);
+}
+
+.img-fluid-abeja:hover{
+  transform: scale(1.1) translateY(-20px);
 }
 
 .background {
@@ -638,6 +677,16 @@ h1 {
   border: 2px solid black;
   overflow: clip;
   font-size: 100%;
+}
+
+.textodescrip1abeja {
+  width: auto;
+  font-size: 20px;
+  border: 2px solid black;
+  overflow: clip;
+  font-size: 100%;
+  background-color: rgba(255, 255, 255, 0.575);
+  text-align: center;
 }
 
 .textodescrip1avips {

@@ -276,6 +276,7 @@ footer ul li {
 }
 
 .col-5abeja {
+  padding-top:40px;
   overflow: clip;
   width: 40%;
   font-size: 100%;
@@ -691,6 +692,17 @@ h1 {
 }
 
 .textodescrip1abeja {
+  width: auto;
+  font-size: 20px;
+  border: 2px solid black;
+  overflow: clip;
+  font-size: 100%;
+  background-color: rgba(255, 255, 255, 0.575);
+  text-align: center;
+}
+
+.textodescrip1abeja2 {
+  margin-top: 40px;
   width: auto;
   font-size: 20px;
   border: 2px solid black;
